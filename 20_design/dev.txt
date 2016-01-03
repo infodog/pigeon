@@ -1,0 +1,52 @@
+
+
+datanode
+角色、编号
+master/sync/async/ 1,2,3,4   
+
+control_version
+data_version
+
+
+(数据通讯的基础，看 history_version 版本，角色切换还需要看 data_version)
+
+
+heartbeat / 15s
+
+1) long : history_version, data_version
+
+rotate history_version++;
+
+channelbuff, sync 辐射复制, async 链式复制
+
+---------------------------- 配置文件格式 --------------- host:port ------------
+
+data_node1 {
+	host:10.10.10.25
+	port:3330
+}
+
+data_node2 {
+	host:10.10.10.26
+	port:3330
+}
+
+data_node3 {
+	host:10.10.10.26
+	port:3330
+}
+
+objs {
+	data_node1:M     // r:100, w:200
+	data_node2:S	 // r:100, w:200
+	data_node3:B     // r:100, w:200
+	
+	control_version:1
+	data_version:100
+}
+
+locks {
+	lock_port:12345
+}
+
+

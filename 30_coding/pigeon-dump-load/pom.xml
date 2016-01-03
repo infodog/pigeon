@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <parent>
+        <groupId>pigeon</groupId>
+        <artifactId>pigeon</artifactId>
+        <version>3.0</version>
+    </parent>
+
+    <groupId>pigeon</groupId>
+    <artifactId>pigeon-dump-load</artifactId>
+    <version>${pigeon-version}</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>pigeon</groupId>
+            <artifactId>pigeon-json</artifactId>
+            <version>${pigeon-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>pigeon</groupId>
+            <artifactId>pigeon-adapter</artifactId>
+            <version>${pigeon-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>pigeon</groupId>
+            <artifactId>pigeon-backup</artifactId>
+            <version>${pigeon-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>pigeon</groupId>
+            <artifactId>pigeon-saas</artifactId>
+            <version>${pigeon-version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>pigeondumpload.${pigeon-version}-SNAPSHOT</finalName>
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifestFile>src/main/resources/META-INF/manifest.mf</manifestFile>
+                    </archive>
+                </configuration>
+
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <!-- this is used for inheritance merges -->
+                        <phase>prepare-package</phase>
+
+                        <configuration>
+                            <descriptorRefs>
+                                <descriptorRef>jar-with-dependencies</descriptorRef>
+                            </descriptorRefs>
+                            <archive>
+                                <manifest>
+                                    <mainClass>net.xinshi.pigeon.dumpload.migration.PigeonMigration</mainClass>
+                                </manifest>
+                            </archive>
+                        </configuration>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+
+
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
+
+</project>

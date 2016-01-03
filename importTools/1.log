@@ -1,0 +1,301 @@
+
+D:\文档\项目文档\合肥百大\导入工具>java -cp pigeondumpload.3.0-SNAPSHOT-jar-with-dependencies.jar;./lib; -Xmx2048M net.xinshi.pigeon.dumpload.loaddata.PigeonLoad load.conf 
+flexobjectFiles : ../pigeonexport/153/mall_flexobject.txt
+flexobjectFiles : ../pigeonexport/154/mall_flexobject.txt
+flexobjectFiles : ../pigeonexport/155/mall_flexobject.txt
+listFiles : ../pigeonexport/153/mall_list.txt
+listFiles : ../pigeonexport/154/mall_list.txt
+listFiles : ../pigeonexport/155/mall_list.txt
+atomFiles : ../pigeonexport/153/mall_atom.txt
+atomFiles : ../pigeonexport/154/mall_atom.txt
+atomFiles : ../pigeonexport/155/mall_atom.txt
+idserverFiles : ../pigeonexport/153/mall_id.txt
+idserverFiles : ../pigeonexport/154/mall_id.txt
+idserverFiles : ../pigeonexport/155/mall_id.txt
+flexobjectVersion = 3
+pigeonStoreConfigFile = pigeonclient.conf
+pigeon version = 3.0(2013.12.03)
+------------------------ begin license ------------------------
+begindate=2013-05-20 00:00:00
+enddate=2014-03-15 00:00:00
+------------------------- end license -------------------------
+nodesDispatcher.licOK = true
+pigeon client config = D:\文档\项目文档\合肥百大\导入工具\pigeonclient.conf
+pigeon nodes version : 1
+distributed flexobject init ...... 
+DistributedListFactory DO INIT ...... 
+DistributedAtom do init ...... 
+distributed flexobject init ...... 
+DistributedIdGenerator DO INIT ...... 
+atom Thread-13 atom thread begin
+../pigeonexport/153/mall_id.txt load data finished. count = 223
+idserver Thread-18 idserver thread begin
+idserver Thread-19 idserver thread begin
+../pigeonexport/154/mall_id.txt load data finished. count = 219
+idserver Thread-17 idserver thread begin
+idserver Thread-20 idserver thread begin
+idserver Thread-22 idserver thread begin
+idserver Thread-21 idserver thread begin
+atom Thread-15 atom thread begin
+idserver Thread-31 idserver thread begin
+idserver Thread-32 idserver thread begin
+idserver Thread-25 idserver thread begin
+atom Thread-38 atom thread begin
+../pigeonexport/155/mall_id.txt load data finished. count = 242
+idserver Thread-23 idserver thread begin
+atom Thread-46 atom thread begin
+idserver Thread-26 idserver thread begin
+idserver Thread-27 idserver thread begin
+atom Thread-15  !!!!!! atom error ...... key : -1_m_100_1386086399000
+idserver Thread-29 idserver thread begin
+idserver Thread-30 idserver thread begin
+atom Thread-48 atom thread begin
+atom Thread-44 atom thread begin
+atom Thread-41 atom thread begin
+idserver Thread-14 idserver thread begin
+atom Thread-16 atom thread begin
+atom Thread-49 atom thread begin
+atom Thread-50 atom thread begin
+idserver load data finished. count = 684, ignore = 0
+atom Thread-51 atom thread begin
+atom Thread-52 atom thread begin
+atom Thread-54 atom thread begin
+atom Thread-53 atom thread begin
+atom Thread-55 atom thread begin
+atom Thread-56 atom thread begin
+idserver Thread-35 idserver thread begin
+idserver Thread-36 idserver thread begin
+idserver Thread-34 idserver thread begin
+idserver Thread-33 idserver thread begin
+list Thread-28  sortlist thread begin
+list Thread-37  sortlist thread begin
+list Thread-39  sortlist thread begin
+list Thread-40  sortlist thread begin
+atom Thread-42 atom thread begin
+atom Thread-43 atom thread begin
+idserver Thread-24 idserver thread begin
+atom Thread-45 atom thread begin
+atom Thread-47 atom thread begin
+atom Thread-45  !!!!!! atom error ...... key : -1_m_100_20140114
+atom Thread-38  !!!!!! atom error ...... key : -1_m_100_1391183999000
+atom Thread-44  !!!!!! atom error ...... key : -1_m_100_20131209
+atom Thread-46  !!!!!! atom error ...... key : -1_m_100_20131203
+atom Thread-48  !!!!!! atom error ...... key : -1_m_100_20131204
+atom Thread-41  !!!!!! atom error ...... key : -1_m_100_20131217
+atom Thread-16  !!!!!! atom error ...... key : -1_m_100_20131218
+atom Thread-49  !!!!!! atom error ...... key : -1_m_100_20131219
+atom Thread-50  !!!!!! atom error ...... key : -1_m_100_20131222
+atom Thread-51  !!!!!! atom error ...... key : -1_m_100_20131227
+atom Thread-52  !!!!!! atom error ...... key : -1_m_100_20131228
+atom Thread-54  !!!!!! atom error ...... key : -1_m_100_20140101
+atom Thread-55  !!!!!! atom error ...... key : -1_m_100_20140104
+atom Thread-53  !!!!!! atom error ...... key : -1_m_100_20140103
+atom Thread-56  !!!!!! atom error ...... key : -1_m_100_20140108
+atom Thread-42  !!!!!! atom error ...... key : -1_m_100_20140111
+atom Thread-43  !!!!!! atom error ...... key : -1_m_100_20140112
+atom Thread-47  !!!!!! atom error ...... key : -1_m_100_20140116
+atom Thread-13  !!!!!! atom error ...... key : -1_m_100_1386863999000
+2014-02-24 08:42:26 list Thread-40 report sortlist one thread finished time ms = 70 , count = 0, abandon = 0
+2014-02-24 08:42:26 list Thread-39 report sortlist one thread finished time ms = 73 , count = 0, abandon = 0
+2014-02-24 08:42:26 list Thread-37 report sortlist one thread finished time ms = 77 , count = 0, abandon = 0
+2014-02-24 08:42:26 list Thread-28 report sortlist one thread finished time ms = 80 , count = 0, abandon = 0
+atom Thread-15  !!!!!! atom error ...... key : -1_m_100_1386086399000
+atom Thread-45  !!!!!! atom error ...... key : -1_m_100_20140114
+atom Thread-38  !!!!!! atom error ...... key : -1_m_100_1391183999000
+atom Thread-44  !!!!!! atom error ...... key : -1_m_100_20131209
+atom Thread-46  !!!!!! atom error ...... key : -1_m_100_20131203
+atom Thread-48  !!!!!! atom error ...... key : -1_m_100_20131204
+atom Thread-16  !!!!!! atom error ...... key : -1_m_100_20131218
+atom Thread-41  !!!!!! atom error ...... key : -1_m_100_20131217
+atom Thread-50  !!!!!! atom error ...... key : -1_m_100_20131222
+atom Thread-49  !!!!!! atom error ...... key : -1_m_100_20131219
+atom Thread-52  !!!!!! atom error ...... key : -1_m_100_20131228
+atom Thread-51  !!!!!! atom error ...... key : -1_m_100_20131227
+atom Thread-56  !!!!!! atom error ...... key : -1_m_100_20140108
+atom Thread-55  !!!!!! atom error ...... key : -1_m_100_20140104
+atom Thread-54  !!!!!! atom error ...... key : -1_m_100_20140101
+atom Thread-43  !!!!!! atom error ...... key : -1_m_100_20140112
+atom Thread-53  !!!!!! atom error ...... key : -1_m_100_20140103
+atom Thread-42  !!!!!! atom error ...... key : -1_m_100_20140111
+atom Thread-47  !!!!!! atom error ...... key : -1_m_100_20140116
+atom Thread-13  !!!!!! atom error ...... key : -1_m_100_1386863999000
+atom Thread-15  !!!!!! atom error ...... key : -1_m_100_1386086399000
+atom Thread-45  !!!!!! atom error ...... key : -1_m_100_20140114
+atom Thread-38  !!!!!! atom error ...... key : -1_m_100_1391183999000
+atom Thread-44  !!!!!! atom error ...... key : -1_m_100_20131209
+atom Thread-46  !!!!!! atom error ...... key : -1_m_100_20131203
+atom Thread-48  !!!!!! atom error ...... key : -1_m_100_20131204
+atom Thread-16  !!!!!! atom error ...... key : -1_m_100_20131218
+atom Thread-41  !!!!!! atom error ...... key : -1_m_100_20131217
+atom Thread-50  !!!!!! atom error ...... key : -1_m_100_20131222
+atom Thread-49  !!!!!! atom error ...... key : -1_m_100_20131219
+atom Thread-52  !!!!!! atom error ...... key : -1_m_100_20131228
+atom Thread-51  !!!!!! atom error ...... key : -1_m_100_20131227
+atom Thread-55  !!!!!! atom error ...... key : -1_m_100_20140104
+atom Thread-56  !!!!!! atom error ...... key : -1_m_100_20140108
+atom Thread-54  !!!!!! atom error ...... key : -1_m_100_20140101
+atom Thread-43  !!!!!! atom error ...... key : -1_m_100_20140112
+atom Thread-42  !!!!!! atom error ...... key : -1_m_100_20140111
+atom Thread-53  !!!!!! atom error ...... key : -1_m_100_20140103
+atom Thread-13  !!!!!! atom error ...... key : -1_m_100_1386863999000
+atom Thread-47  !!!!!! atom error ...... key : -1_m_100_20140116
+atom Thread-15  !!!!!! atom error ...... key : -1_m_100_1386086399000
+atom Thread-45  !!!!!! atom error ...... key : -1_m_100_20140114
+atom Thread-38  !!!!!! atom error ...... key : -1_m_100_1391183999000
+atom Thread-44  !!!!!! atom error ...... key : -1_m_100_20131209
+atom Thread-46  !!!!!! atom error ...... key : -1_m_100_20131203
+atom Thread-48  !!!!!! atom error ...... key : -1_m_100_20131204
+atom Thread-16  !!!!!! atom error ...... key : -1_m_100_20131218
+atom Thread-41  !!!!!! atom error ...... key : -1_m_100_20131217
+atom Thread-50  !!!!!! atom error ...... key : -1_m_100_20131222
+atom Thread-49  !!!!!! atom error ...... key : -1_m_100_20131219
+atom Thread-52  !!!!!! atom error ...... key : -1_m_100_20131228
+atom Thread-51  !!!!!! atom error ...... key : -1_m_100_20131227
+atom Thread-55  !!!!!! atom error ...... key : -1_m_100_20140104
+atom Thread-56  !!!!!! atom error ...... key : -1_m_100_20140108
+atom Thread-54  !!!!!! atom error ...... key : -1_m_100_20140101
+atom Thread-43  !!!!!! atom error ...... key : -1_m_100_20140112
+atom Thread-42  !!!!!! atom error ...... key : -1_m_100_20140111
+atom Thread-53  !!!!!! atom error ...... key : -1_m_100_20140103
+atom Thread-13  !!!!!! atom error ...... key : -1_m_100_1386863999000
+atom Thread-47  !!!!!! atom error ...... key : -1_m_100_20140116
+atom Thread-15  !!!!!! atom error ...... key : -1_m_100_1386086399000
+atom Thread-45  !!!!!! atom error ...... key : -1_m_100_20140114
+atom Thread-38  !!!!!! atom error ...... key : -1_m_100_1391183999000
+atom Thread-44  !!!!!! atom error ...... key : -1_m_100_20131209
+atom Thread-46  !!!!!! atom error ...... key : -1_m_100_20131203
+atom Thread-48  !!!!!! atom error ...... key : -1_m_100_20131204
+atom Thread-41  !!!!!! atom error ...... key : -1_m_100_20131217
+atom Thread-16  !!!!!! atom error ...... key : -1_m_100_20131218
+atom Thread-50  !!!!!! atom error ...... key : -1_m_100_20131222
+atom Thread-49  !!!!!! atom error ...... key : -1_m_100_20131219
+atom Thread-52  !!!!!! atom error ...... key : -1_m_100_20131228
+atom Thread-51  !!!!!! atom error ...... key : -1_m_100_20131227
+atom Thread-55  !!!!!! atom error ...... key : -1_m_100_20140104
+atom Thread-56  !!!!!! atom error ...... key : -1_m_100_20140108
+atom Thread-54  !!!!!! atom error ...... key : -1_m_100_20140101
+atom Thread-53  !!!!!! atom error ...... key : -1_m_100_20140103
+atom Thread-13  !!!!!! atom error ...... key : -1_m_100_1386863999000
+atom Thread-42  !!!!!! atom error ...... key : -1_m_100_20140111
+atom Thread-43  !!!!!! atom error ...... key : -1_m_100_20140112
+atom Thread-47  !!!!!! atom error ...... key : -1_m_100_20140116
+atom Thread-15  !!!!!! atom error ...... key : -1_m_100_1386086399000
+atom Thread-45  !!!!!! atom error ...... key : -1_m_100_20140114
+atom Thread-38  !!!!!! atom error ...... key : -1_m_100_1391183999000
+atom Thread-44  !!!!!! atom error ...... key : -1_m_100_20131209
+atom Thread-46  !!!!!! atom error ...... key : -1_m_100_20131203
+atom Thread-48  !!!!!! atom error ...... key : -1_m_100_20131204
+atom Thread-41  !!!!!! atom error ...... key : -1_m_100_20131217
+atom Thread-16  !!!!!! atom error ...... key : -1_m_100_20131218
+atom Thread-49  !!!!!! atom error ...... key : -1_m_100_20131219
+atom Thread-50  !!!!!! atom error ...... key : -1_m_100_20131222
+atom Thread-51  !!!!!! atom error ...... key : -1_m_100_20131227
+atom Thread-52  !!!!!! atom error ...... key : -1_m_100_20131228
+atom Thread-55  !!!!!! atom error ...... key : -1_m_100_20140104
+atom Thread-56  !!!!!! atom error ...... key : -1_m_100_20140108
+atom Thread-53  !!!!!! atom error ...... key : -1_m_100_20140103
+atom Thread-54  !!!!!! atom error ...... key : -1_m_100_20140101
+atom Thread-43  !!!!!! atom error ...... key : -1_m_100_20140112
+atom Thread-13  !!!!!! atom error ...... key : -1_m_100_1386863999000
+atom Thread-42  !!!!!! atom error ...... key : -1_m_100_20140111
+atom Thread-47  !!!!!! atom error ...... key : -1_m_100_20140116
+atom Thread-15  !!!!!! atom error ...... key : -1_m_100_1386086399000
+atom Thread-45  !!!!!! atom error ...... key : -1_m_100_20140114
+atom Thread-38  !!!!!! atom error ...... key : -1_m_100_1391183999000
+atom Thread-44  !!!!!! atom error ...... key : -1_m_100_20131209
+atom Thread-46  !!!!!! atom error ...... key : -1_m_100_20131203
+atom Thread-48  !!!!!! atom error ...... key : -1_m_100_20131204
+atom Thread-41  !!!!!! atom error ...... key : -1_m_100_20131217
+atom Thread-16  !!!!!! atom error ...... key : -1_m_100_20131218
+atom Thread-50  !!!!!! atom error ...... key : -1_m_100_20131222
+atom Thread-49  !!!!!! atom error ...... key : -1_m_100_20131219
+atom Thread-51  !!!!!! atom error ...... key : -1_m_100_20131227
+atom Thread-52  !!!!!! atom error ...... key : -1_m_100_20131228
+atom Thread-55  !!!!!! atom error ...... key : -1_m_100_20140104
+atom Thread-56  !!!!!! atom error ...... key : -1_m_100_20140108
+atom Thread-53  !!!!!! atom error ...... key : -1_m_100_20140103
+atom Thread-54  !!!!!! atom error ...... key : -1_m_100_20140101
+atom Thread-43  !!!!!! atom error ...... key : -1_m_100_20140112
+atom Thread-13  !!!!!! atom error ...... key : -1_m_100_1386863999000
+atom Thread-42  !!!!!! atom error ...... key : -1_m_100_20140111
+atom Thread-47  !!!!!! atom error ...... key : -1_m_100_20140116
+atom Thread-15  !!!!!! atom error ...... key : -1_m_100_1386086399000
+atom Thread-45  !!!!!! atom error ...... key : -1_m_100_20140114
+atom Thread-38  !!!!!! atom error ...... key : -1_m_100_1391183999000
+atom Thread-44  !!!!!! atom error ...... key : -1_m_100_20131209
+atom Thread-46  !!!!!! atom error ...... key : -1_m_100_20131203
+atom Thread-48  !!!!!! atom error ...... key : -1_m_100_20131204
+atom Thread-41  !!!!!! atom error ...... key : -1_m_100_20131217
+atom Thread-16  !!!!!! atom error ...... key : -1_m_100_20131218
+atom Thread-50  !!!!!! atom error ...... key : -1_m_100_20131222
+atom Thread-49  !!!!!! atom error ...... key : -1_m_100_20131219
+atom Thread-51  !!!!!! atom error ...... key : -1_m_100_20131227
+atom Thread-52  !!!!!! atom error ...... key : -1_m_100_20131228
+atom Thread-55  !!!!!! atom error ...... key : -1_m_100_20140104
+atom Thread-56  !!!!!! atom error ...... key : -1_m_100_20140108
+atom Thread-53  !!!!!! atom error ...... key : -1_m_100_20140103
+atom Thread-54  !!!!!! atom error ...... key : -1_m_100_20140101
+atom Thread-43  !!!!!! atom error ...... key : -1_m_100_20140112
+atom Thread-13  !!!!!! atom error ...... key : -1_m_100_1386863999000
+atom Thread-42  !!!!!! atom error ...... key : -1_m_100_20140111
+atom Thread-47  !!!!!! atom error ...... key : -1_m_100_20140116
+atom Thread-15  !!!!!! atom error ...... key : -1_m_100_1386086399000
+atom Thread-45  !!!!!! atom error ...... key : -1_m_100_20140114
+atom Thread-38  !!!!!! atom error ...... key : -1_m_100_1391183999000
+atom Thread-44  !!!!!! atom error ...... key : -1_m_100_20131209
+atom Thread-46  !!!!!! atom error ...... key : -1_m_100_20131203
+atom Thread-48  !!!!!! atom error ...... key : -1_m_100_20131204
+atom Thread-41  !!!!!! atom error ...... key : -1_m_100_20131217
+atom Thread-16  !!!!!! atom error ...... key : -1_m_100_20131218
+atom Thread-50  !!!!!! atom error ...... key : -1_m_100_20131222
+atom Thread-49  !!!!!! atom error ...... key : -1_m_100_20131219
+atom Thread-51  !!!!!! atom error ...... key : -1_m_100_20131227
+atom Thread-52  !!!!!! atom error ...... key : -1_m_100_20131228
+atom Thread-55  !!!!!! atom error ...... key : -1_m_100_20140104
+atom Thread-56  !!!!!! atom error ...... key : -1_m_100_20140108
+atom Thread-53  !!!!!! atom error ...... key : -1_m_100_20140103
+atom Thread-54  !!!!!! atom error ...... key : -1_m_100_20140101
+atom Thread-43  !!!!!! atom error ...... key : -1_m_100_20140112
+atom Thread-13  !!!!!! atom error ...... key : -1_m_100_1386863999000
+atom Thread-42  !!!!!! atom error ...... key : -1_m_100_20140111
+atom Thread-47  !!!!!! atom error ...... key : -1_m_100_20140116
+atom Thread-15  !!!!!! atom error ...... key : -1_m_100_1386086399000
+atom Thread-45  !!!!!! atom error ...... key : -1_m_100_20140114
+atom Thread-38  !!!!!! atom error ...... key : -1_m_100_1391183999000
+atom Thread-44  !!!!!! atom error ...... key : -1_m_100_20131209
+atom Thread-46  !!!!!! atom error ...... key : -1_m_100_20131203
+atom Thread-48  !!!!!! atom error ...... key : -1_m_100_20131204
+atom Thread-41  !!!!!! atom error ...... key : -1_m_100_20131217
+atom Thread-16  !!!!!! atom error ...... key : -1_m_100_20131218
+atom Thread-50  !!!!!! atom error ...... key : -1_m_100_20131222
+atom Thread-49  !!!!!! atom error ...... key : -1_m_100_20131219
+atom Thread-51  !!!!!! atom error ...... key : -1_m_100_20131227
+atom Thread-52  !!!!!! atom error ...... key : -1_m_100_20131228
+atom Thread-55  !!!!!! atom error ...... key : -1_m_100_20140104
+atom Thread-56  !!!!!! atom error ...... key : -1_m_100_20140108
+atom Thread-53  !!!!!! atom error ...... key : -1_m_100_20140103
+atom Thread-54  !!!!!! atom error ...... key : -1_m_100_20140101
+atom Thread-43  !!!!!! atom error ...... key : -1_m_100_20140112
+atom Thread-13  !!!!!! atom error ...... key : -1_m_100_1386863999000
+atom Thread-42  !!!!!! atom error ...... key : -1_m_100_20140111
+atom Thread-47  !!!!!! atom error ...... key : -1_m_100_20140116
+atom Thread-15  !!!!!! atom error ...... key : -1_m_100_1386086399000
+atom Thread-45  !!!!!! atom error ...... key : -1_m_100_20140114
+atom Thread-38  !!!!!! atom error ...... key : -1_m_100_1391183999000
+atom Thread-44  !!!!!! atom error ...... key : -1_m_100_20131209
+atom Thread-46  !!!!!! atom error ...... key : -1_m_100_20131203
+atom Thread-48  !!!!!! atom error ...... key : -1_m_100_20131204
+atom Thread-41  !!!!!! atom error ...... key : -1_m_100_20131217
+atom Thread-16  !!!!!! atom error ...... key : -1_m_100_20131218
+atom Thread-50  !!!!!! atom error ...... key : -1_m_100_20131222
+atom Thread-49  !!!!!! atom error ...... key : -1_m_100_20131219
+atom Thread-51  !!!!!! atom error ...... key : -1_m_100_20131227
+atom Thread-52  !!!!!! atom error ...... key : -1_m_100_20131228
+atom Thread-55  !!!!!! atom error ...... key : -1_m_100_20140104
+atom Thread-56  !!!!!! atom error ...... key : -1_m_100_20140108
+atom Thread-53  !!!!!! atom error ...... key : -1_m_100_20140103
+atom Thread-54  !!!!!! atom error ...... key : -1_m_100_20140101
+atom Thread-43  !!!!!! atom error ...... key : -1_m_100_20140112
+atom Thread-13  !!!!!! atom error ...... key : -1_m_100_1386863999000
+atom Thread-42  !!!!!! atom error ...... key : -1_m_100_20140111
+atom Thread-47  !!!!!! atom error ...... key : -1_m_100_20140116

@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>pigeon</groupId>
+    <artifactId>pigeon</artifactId>
+    <version>3.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>pigeon-json</module>
+        <module>pigeon-commons</module>
+        <module>pigeon-core</module>
+        <module>pigeon-server</module>
+        <module>pigeon-client</module>
+        <module>pigeon-adapter</module>
+        <module>pigeon-file-client</module>
+        <module>pigeon-dump-load</module>
+        <module>pigeon-import-data</module>
+        <module>pigeon-tools</module>
+        <module>pigeon-tags</module>
+        <module>pigeon-netty</module>
+        <module>pigeon-saas</module>
+        <module>pigeon-distributed</module>
+        <module>pigeon-backup</module>
+    </modules>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java-version>1.6</java-version>
+        <org.springframework-version>3.0.5.RELEASE</org.springframework-version>
+        <pigeon-version>3.0</pigeon-version>
+    </properties>
+
+    <organization>
+        <name>infoscape</name>
+        <url>http://www.infoscape.com.cn</url>
+    </organization>
+
+    <distributionManagement>
+        <repository>
+            <id>infoscape-release</id>
+            <url>http://10.10.10.199:8081/nexus/content/repositories/infoscape-release</url>
+        </repository>
+    </distributionManagement>
+
+    <ciManagement>
+        <system>Hudson</system>
+        <url>http://10.10.10.21:7799/job/Pigeon3/</url>
+    </ciManagement>
+
+    <issueManagement>
+        <system>Jira</system>
+        <url>http://jira.infoscape.com.cn/browse/ISONEPIGEON</url>
+    </issueManagement>
+
+
+    <!--<distributionManagement>-->
+    <!--<repository>-->
+    <!--<id>localNexus</id>-->
+    <!--<url>http://localhost:8081/nexus/content/repositories/releases</url>-->
+    <!--</repository>-->
+
+    <!--<snapshotRepository>-->
+    <!--<id>localNexus</id>-->
+    <!--<url>http://localhost:8081/nexus/content/repositories/snapshots</url>-->
+    <!--</snapshotRepository>-->
+
+    <!--</distributionManagement>-->
+
+
+</project>

@@ -1,0 +1,1 @@
+java -Djava.util.logging.config.file="logging.properties" -cp pigeondumpload.3.0-SNAPSHOT-jar-with-dependencies.jar;.; -Xmx2048M net.xinshi.pigeon.dumpload.loaddata.PigeonLoad load.conf
